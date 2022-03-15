@@ -309,4 +309,12 @@ bot.hears("mensaje amistad", async(ctx) =>{
 
 
 /* Bot ejecutador de todos los bots */
+
+const PORT = process.env.PORT || 4000
+
+App.listen(PORT, function(){
+    console.log("Servidor conectado desde el puerto", PORT)
+})
+
+
 bot.launch();
