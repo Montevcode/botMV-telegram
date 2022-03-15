@@ -312,7 +312,7 @@ bot.hears("mensaje amistad", async(ctx) =>{
 
 const PORT = process.env.PORT || 4000
 
-App.listen(PORT, function(){
+app.listen(PORT, function(){
     console.log("Servidor conectado desde el puerto", PORT)
 })
 
